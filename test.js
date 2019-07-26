@@ -12,7 +12,7 @@ fs.readFile('read.txt',function(err,data){
 //事件处理
 var events =require('events');
 var eventEmitter =new events.EventEmitter();
-//预先定义
+//预先定义 //dev 分支
 const handleConnect = function connected() {
   console.log('链接成功')
 }
